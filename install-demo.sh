@@ -23,7 +23,7 @@ check_dependencies() {
 }
 
 setup_containers() {
-	curl -o docker-compose.yml https://raw.githubusercontent.com/knadh/listmonk/master/docker-compose.yml
+	curl -o docker-compose.yml https://raw.githubusercontent.com/kyle-crews/listmonk/master/docker-compose.yml
 	# Use "docker compose" instead of "docker-compose"
 	docker compose up -d demo-db demo-app
 }

@@ -84,12 +84,12 @@ generate_password(){
 
 get_config() {
 	info "fetching config.toml from listmonk repo"
-	download https://raw.githubusercontent.com/knadh/listmonk/master/config.toml.sample config.toml
+	download https://raw.githubusercontent.com/kyle-crews/listmonk/master/config.toml.sample config.toml
 }
 
 get_containers() {
 	info "fetching docker-compose.yml from listmonk repo"
-	download https://raw.githubusercontent.com/knadh/listmonk/master/docker-compose.yml docker-compose.yml
+	download https://raw.githubusercontent.com/kyle-crews/listmonk/master/docker-compose.yml docker-compose.yml
 }
 
 modify_config(){
